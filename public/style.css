@@ -383,15 +383,11 @@ ion-icon {
   margin: 0 40px;
 }
 
-.rating ion-icon {
-  color: #fff;
-  font-size: 15px;
-}
-
 .copyright {
     font-size: 13px;
-    text-align: start;
-    color: white;
+    text-align: center;
+    color: gray;
+    width: 100%;
   }
 
 
