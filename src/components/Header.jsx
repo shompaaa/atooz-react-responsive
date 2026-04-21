@@ -9,7 +9,7 @@ const Header = () => {
     <div>
       <header className="fixed-top">
         {/* <!-- Top Header --> */}
-        <div class="header">
+        <div className="header">
           <ul>
             <li className="flex gap-1 align-items-center">
               {/* <IoMdCash color="white" size={17} /> */}
@@ -31,7 +31,7 @@ const Header = () => {
         </div>
 
         {/* <!-- Navbar --> */}
-        <nav class="nav_bar">
+        <nav className="nav_bar">
           <div className="d-flex align-items-center gap-3">
             <div className="hamburger-menu">
               <GiHamburgerMenu
@@ -52,7 +52,7 @@ const Header = () => {
               </Link>
             </div>
           </div>
-          <div class="navbar_menu">
+          <div className="navbar_menu">
             <ul>
               <li>
                 <Link to="/">Home</Link>
@@ -68,7 +68,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <div class="navbar_icon_button">
+          <div className="navbar_icon_button">
             <button className="login-btn border-0 px-4 py-1 bg-primary rounded-2">
               <Link to="/login" className="text-white">
                 Login
