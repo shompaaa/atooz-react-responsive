@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGift, FaTruck } from "react-icons/fa";
 import { GiReceiveMoney } from "react-icons/gi";
+import { IoMdStar, IoMdStarHalf, IoMdStarOutline } from "react-icons/io";
 import { MdConnectWithoutContact } from "react-icons/md";
 import { RiSecurePaymentLine } from "react-icons/ri";
 import { TbCurrencyTaka } from "react-icons/tb";
@@ -206,12 +207,12 @@ const Home = () => {
                 <TbCurrencyTaka />
                 <span>1200</span>
               </span>
-              <span className="rating">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
+              <span style={{ color: "#fd6602", marginBottom: "10px" }}>
+                <IoMdStar />
+                <IoMdStar />
+                <IoMdStar />
+                <IoMdStarHalf />
+                <IoMdStarOutline />
               </span>
               <button>Add to Cart</button>
             </div>
@@ -226,12 +227,12 @@ const Home = () => {
                 <TbCurrencyTaka />
                 <span>1200</span>
               </span>
-              <span className="rating">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star-half"></ion-icon>
-                <ion-icon name="star-outline"></ion-icon>
+              <span style={{ color: "#fd6602", marginBottom: "10px" }}>
+                <IoMdStar />
+                <IoMdStar />
+                <IoMdStar />
+                <IoMdStarHalf />
+                <IoMdStarOutline />
               </span>
               <button>Add to Cart</button>
             </div>
@@ -246,12 +247,12 @@ const Home = () => {
                 <TbCurrencyTaka />
                 <span>1200</span>
               </span>
-              <span className="rating">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
+              <span style={{ color: "#fd6602", marginBottom: "10px" }}>
+                <IoMdStar />
+                <IoMdStar />
+                <IoMdStar />
+                <IoMdStarHalf />
+                <IoMdStarOutline />
               </span>
               <button>Add to Cart</button>
             </div>
@@ -266,12 +267,12 @@ const Home = () => {
                 <TbCurrencyTaka />
                 <span>1200</span>
               </span>
-              <span className="rating">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star-half"></ion-icon>
-                <ion-icon name="star-outline"></ion-icon>
+              <span style={{ color: "#fd6602", marginBottom: "10px" }}>
+                <IoMdStar />
+                <IoMdStar />
+                <IoMdStar />
+                <IoMdStarHalf />
+                <IoMdStarOutline />
               </span>
               <button>Add to Cart</button>
             </div>
@@ -286,12 +287,12 @@ const Home = () => {
                 <TbCurrencyTaka />
                 <span>1200</span>
               </span>
-              <span className="rating">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star-outline"></ion-icon>
+              <span style={{ color: "#fd6602", marginBottom: "10px" }}>
+                <IoMdStar />
+                <IoMdStar />
+                <IoMdStar />
+                <IoMdStarHalf />
+                <IoMdStarOutline />
               </span>
               <button>Add to Cart</button>
             </div>
@@ -306,12 +307,12 @@ const Home = () => {
                 <TbCurrencyTaka />
                 <span>1200</span>
               </span>
-              <span className="rating">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
+              <span style={{ color: "#fd6602", marginBottom: "10px" }}>
+                <IoMdStar />
+                <IoMdStar />
+                <IoMdStar />
+                <IoMdStarHalf />
+                <IoMdStarOutline />
               </span>
               <button>Add to Cart</button>
             </div>
@@ -326,12 +327,12 @@ const Home = () => {
                 <TbCurrencyTaka />
                 <span>1200</span>
               </span>
-              <span className="rating">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star-outline"></ion-icon>
-                <ion-icon name="star-outline"></ion-icon>
+              <span style={{ color: "#fd6602", marginBottom: "10px" }}>
+                <IoMdStar />
+                <IoMdStar />
+                <IoMdStar />
+                <IoMdStarHalf />
+                <IoMdStarOutline />
               </span>
               <button>Add to Cart</button>
             </div>
@@ -346,12 +347,12 @@ const Home = () => {
                 <TbCurrencyTaka />
                 <span>1200</span>
               </span>
-              <span className="rating">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star-half"></ion-icon>
-                <ion-icon name="star-outline"></ion-icon>
+              <span style={{ color: "#fd6602", marginBottom: "10px" }}>
+                <IoMdStar />
+                <IoMdStar />
+                <IoMdStar />
+                <IoMdStarHalf />
+                <IoMdStarOutline />
               </span>
               <button>Add to Cart</button>
             </div>
@@ -366,12 +367,12 @@ const Home = () => {
                 <TbCurrencyTaka />
                 <span>1200</span>
               </span>
-              <span className="rating">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
+              <span style={{ color: "#fd6602", marginBottom: "10px" }}>
+                <IoMdStar />
+                <IoMdStar />
+                <IoMdStar />
+                <IoMdStarHalf />
+                <IoMdStarOutline />
               </span>
               <button>Add to Cart</button>
             </div>
@@ -406,7 +407,7 @@ const Home = () => {
             <h3 className="title-secondary">Non-Contact Shipping</h3>
           </div>
           <div className=" text-center">
-            <GiReceiveMoney  size={35} color="#fd6602" />
+            <GiReceiveMoney size={35} color="#fd6602" />
             <h3 className="title-secondary">Money-back Guaranteed</h3>
           </div>
           <div className=" text-center">
