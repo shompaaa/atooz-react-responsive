@@ -998,9 +998,7 @@ textarea {
   }
 
   /* Login Form */
-  .banner {
-    margin-top: 110px;
-  }
+
   .login-form {
     margin-top: 50px;
     width: 50%;
@@ -1264,9 +1262,6 @@ textarea {
   }
 
   /* Login Form */
-  .banner {
-    margin-top: 50px;
-  }
   .login-form {
     width: 100%;
     margin-top: 90px;
