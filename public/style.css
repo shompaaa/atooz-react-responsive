@@ -680,10 +680,9 @@ textarea {
   }
 
   /* Company Styles */
-  .company-container img{
+  .company-container img {
     width: 220px;
     height: 120px;
-
   }
 
   .company {
@@ -693,6 +692,11 @@ textarea {
   }
 
   /* Contact Styles */
+
+  .contact {
+    margin-top: 100px;
+  }
+
   .contact-section {
     margin: 0 50px;
     position: relative;
@@ -740,17 +744,22 @@ textarea {
     color: gray;
   }
 
-  /* Login & Register Form */
-  .login-form {
-    margin-top: 80px;
-    width: 100%;
-  }
-  .login-form h2 {
-    font-family: "Times New Roman", Times, serif;
+  /* About Page Style */
+
+  .about {
+    margin-top: 150px;
   }
 
-  .link {
-    text-decoration: none;
+  /* Red box */
+  .red-box {
+    width: 60%;
+    height: 150px;
+  }
+
+  /* Login Form */
+  .login-form {
+    margin-top: 150px;
+    width: 40%;
   }
 }
 
@@ -971,17 +980,30 @@ textarea {
     color: gray;
   }
 
-  /* Login & Register Form */
-  .login-form {
-    margin-top: 80px;
-    width: 100%;
-  }
-  .login-form h2 {
-    font-family: "Times New Roman", Times, serif;
+  /* About Page Style */
+
+  .about {
+    margin-top: 120px;
   }
 
-  .link {
-    text-decoration: none;
+  /* Red box */
+  .red-box {
+    width: 70%;
+    height: 130px;
+  }
+
+  /* Image */
+  .main-img {
+    width: 70%;
+  }
+
+  /* Login Form */
+  .banner {
+    margin-top: 110px;
+  }
+  .login-form {
+    margin-top: 50px;
+    width: 50%;
   }
 }
 
@@ -1212,16 +1234,114 @@ textarea {
     color: gray;
   }
 
-  /* Login & Register Form */
-  .login-form {
-    margin-top: 80px;
-    width: 100%;
+  /* About Page Style */
+
+  .about-page {
+    display: block;
+    margin-top: 0;
   }
-  .login-form h2 {
-    font-family: "Times New Roman", Times, serif;
+  .collection-description {
+    margin-bottom: 20px;
   }
 
-  .link {
-    text-decoration: none;
+  /* Red box */
+  .red-box {
+    width: 60%;
+    height: 120px;
   }
+
+  /* Image */
+  .main-img {
+    width: 60%;
+  }
+
+  /* Contact Page Style */
+  .contact {
+    margin-top: 20px;
+  }
+  .contact-info {
+    margin-bottom: 20px;
+  }
+
+  /* Login Form */
+  .banner {
+    margin-top: 50px;
+  }
+  .login-form {
+    width: 100%;
+    margin-top: 90px;
+  }
+}
+
+/* Hamburger Menu Styles */
+
+/* Hide mobile menu by default */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 9999;
+}
+
+/* Show when active */
+.mobile-menu.active {
+  display: block;
+}
+
+/* Dark overlay */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Sidebar */
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 100%;
+  background: #fff;
+  padding: 20px;
+  animation: slideIn 0.3s ease;
+}
+
+/* Close button */
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  float: right;
+}
+
+/* Sidebar animation */
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Menu styling */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
 }

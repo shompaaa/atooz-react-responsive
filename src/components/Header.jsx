@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 // import { FaCheckCircle, FaLanguage, FaWhatsapp } from "react-icons/fa";
 // import { IoMdCash } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div>
       <header className="fixed-top">
@@ -33,15 +34,16 @@ const Header = () => {
         {/* <!-- Navbar --> */}
         <nav className="nav_bar">
           <div className="d-flex align-items-center gap-3">
+            {/* Hamburger Menu */}
             <div className="hamburger-menu">
               <GiHamburgerMenu
-                size={17}
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasScrolling"
-                aria-controls="offcanvasScrolling"
+                size={22}
+                onClick={() => {
+                  setMenuOpen(!menuOpen);
+                }}
               />
             </div>
-            
+            {/* Logo */}
             <div>
               <Link to="/">
                 <img
@@ -52,6 +54,8 @@ const Header = () => {
               </Link>
             </div>
           </div>
+
+          {/* Desktop Menu */}
           <div className="navbar_menu">
             <ul>
               <li>
@@ -68,6 +72,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
+          {/* Login Button */}
           <div className="navbar_icon_button">
             <button className="login-btn border-0 px-4 py-1 bg-primary rounded-2">
               <Link to="/login" className="text-white">
@@ -76,6 +81,43 @@ const Header = () => {
             </button>
           </div>
         </nav>
+
+        {/* ========================= */}
+        {/* MOBILE SIDEBAR (STATE) */}
+        {/* ========================= */}
+
+        <div className={`mobile-menu ${menuOpen ? "active" : ""}`}>
+          {/* Overlay */}
+          <div className="overlay" onClick={() => setMenuOpen(false)}></div>
+
+          {/* Sidebar */}
+          <div className="sidebar">
+            {/* Close Button */}
+            <button className="close-btn" onClick={() => setMenuOpen(false)}>
+              ✕
+            </button>
+
+            <ul>
+              <li onClick={() => setMenuOpen(false)}>
+                <Link to="/">Home</Link>
+              </li>
+              <li onClick={() => setMenuOpen(false)}>
+                <Link to="/about">About</Link>
+              </li>
+              <li onClick={() => setMenuOpen(false)}>
+                <Link to="/products">Products</Link>
+              </li>
+              <li onClick={() => setMenuOpen(false)}>
+                <Link to="/contact">Contact</Link>
+              </li>
+              <li>
+                <Link to="/login" className="btn btn-primary w-100 mt-3">
+                  Login
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
 
         {/* <!-- Header Section End --> */}
       </header>
