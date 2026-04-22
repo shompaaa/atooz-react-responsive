@@ -387,6 +387,13 @@ const Home = () => {
                 <TbCurrencyTaka />
                 <span>1200</span>
               </span>
+                 <span style={{color: '#fd6602', marginBottom: '10px'}}>
+                <IoMdStar />
+                <IoMdStar />
+                <IoMdStar />
+                <IoMdStarHalf />
+                <IoMdStarOutline />
+              </span>
               <button>Add to Cart</button>
             </div>
           </div>
