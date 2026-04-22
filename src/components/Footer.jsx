@@ -55,19 +55,11 @@ const Footer = () => {
           </div>
         </div>
         <hr />
-        <div className="media-container">
-          <div className="copyright">
-            <small>Copyright 2026,</small>
-            <span>Designed & Developed By</span>
-            <span style={{ color: "red" }}>EKATTOR</span>
-            <span style={{ color: "green" }}>iT</span>
-          </div>
-          <div className="social-media">
-            <ion-icon name="logo-facebook"></ion-icon>
-            <ion-icon name="logo-twitter"></ion-icon>
-            <ion-icon name="logo-linkedin"></ion-icon>
-            <ion-icon name="logo-instagram"></ion-icon>
-          </div>
+        <div className="copyright">
+          <small>Copyright 2026,</small>
+          <span>Designed & Developed By</span>
+          <span style={{ color: "red" }}>EKATTOR</span>
+          <span style={{ color: "green" }}>iT</span>
         </div>
       </footer>
       {/* <!-- Footer Section End --> */}

@@ -386,13 +386,6 @@ const Home = () => {
                 <TbCurrencyTaka />
                 <span>1200</span>
               </span>
-              <span className="rating">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star-outline"></ion-icon>
-              </span>
               <button>Add to Cart</button>
             </div>
           </div>
