@@ -1,19 +1,24 @@
 import React from "react";
 
 const TrustedCompany = () => {
+  const companies = [
+    { id: 1, name: "Instagram", image: "assets/images/instagram.jpg" },
+    { id: 2, name: "Tiktok", image: "assets/images/tiktok.jpg" },
+    { id: 3, name: "YouTube", image: "assets/images/youtube.jpg" },
+    { id: 4, name: "Music", image: "assets/images/music.jpg" },
+    { id: 5, name: "Netflix", image: "assets/images/netflix.jpg" },
+  ];
+
   return (
-    <div>
-      <section className="company-container">
-        <h2 className="title-primary">Trusted By 100+ Companies</h2>
-        <div className="company">
-          <img src="assets/images/instagram.jpg" alt="Instagram" />
-          <img src="assets/images/tiktok.jpg" alt="Tiktok" />
-          <img src="assets/images/youtube.jpg" alt="YouTube" />
-          <img src="assets/images/music.jpg" alt="Music" />
-          <img src="assets/images/netflix.jpg" alt="Netflix" />
-        </div>
-      </section>
-    </div>
+    <section className="company-container">
+      <h2 className="title-primary">Trusted By 100+ Companies</h2>
+
+      <div className="company">
+        {companies.map((company) => (
+          <img key={company.id} src={company.image} alt={company.name} />
+        ))}
+      </div>
+    </section>
   );
 };
 
