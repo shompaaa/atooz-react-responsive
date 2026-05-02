@@ -15,28 +15,28 @@ const FeaturedProducts = () => {
       id: 2,
       name: "Smart Watch",
       image: "assets/images/watch-2.png",
-      price: 1200,
+      price: 1000,
       stock: 0,
     },
     {
       id: 3,
       name: "Smart Watch",
       image: "assets/images/watch-3.png",
-      price: 1200,
+      price: 900,
       stock: 3,
     },
     {
       id: 4,
       name: "Speaker",
       image: "assets/images/speaker-2.jpg",
-      price: 1200,
+      price: 800,
       stock: 0,
     },
     {
       id: 5,
       name: "Smart Watch",
       image: "assets/images/watch-2.png",
-      price: 1200,
+      price: 750,
       stock: 10,
     },
     { id: 6, name: "Speaker", image: "assets/images/speaker.png", price: 1200 },
@@ -44,28 +44,28 @@ const FeaturedProducts = () => {
       id: 7,
       name: "Smart Watch",
       image: "assets/images/watch1.png",
-      price: 1200,
+      price: 1250,
       stock: 9,
     },
     {
       id: 8,
       name: "Speaker",
       image: "assets/images/speaker-2.jpg",
-      price: 1200,
+      price: 1300,
       stock: 12,
     },
     {
       id: 9,
       name: "Speaker",
       image: "assets/images/speaker-3.jpg",
-      price: 1200,
+      price: 1500,
       stock: 0,
     },
     {
       id: 10,
       name: "Smart Watch",
       image: "assets/images/watch-3.png",
-      price: 1200,
+      price: 1100,
       stock: 1,
     },
   ];
@@ -75,7 +75,8 @@ const FeaturedProducts = () => {
       <h2>Our Featured Products</h2>
 
       <div className="featured-container">
-        {products.map((product) => (
+        {products.filter((item)=>item.price >= 1000)
+        .map((product) => (
           <div className="featured-content" key={product.id}>
             <div>
               <img src={product.image} alt={product.name} />

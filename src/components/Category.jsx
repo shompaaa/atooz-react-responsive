@@ -29,10 +29,14 @@ const Category = () => {
     },
   ];
 
+  const filterArray = categories.filter((item) => item.id !== 4);
+  console.log(categories);
+  console.log(filterArray);
+
   return (
     <div>
       <section className="category-container">
-        {categories.map((category) => (
+        {filterArray.map((category) => (
           <div key={category.id}>
             <div className="category-content">
               <img src={category.image} alt={category.name} />
